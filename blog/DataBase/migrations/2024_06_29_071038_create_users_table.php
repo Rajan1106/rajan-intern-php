@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title',50);
             $table->date('date');
-            $table->string('blog',250);
+            $table->string('blog',1000);
             $table->timestamps();
         });
     }
